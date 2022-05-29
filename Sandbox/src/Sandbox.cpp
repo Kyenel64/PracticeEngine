@@ -1,4 +1,4 @@
-#include <AStar.h> // Calls dll entrypoint function
+#include <AStar.h>
 
 class Sandbox : public AStar::Application
 {
@@ -16,5 +16,5 @@ public:
 
 AStar::Application* AStar::CreateApplication()
 {
-	return new Sandbox();
+	return new Sandbox(); // calls dll entrypoint
 }
