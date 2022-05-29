@@ -4,7 +4,7 @@ namespace AStar
 {
 	Application::Application()
 	{
-
+		
 	}
 	Application::~Application()
 	{
