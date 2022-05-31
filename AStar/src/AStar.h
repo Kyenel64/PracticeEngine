@@ -3,6 +3,9 @@
 // For use by AStar applications (games)
 
 #include "AStar/Application.h"
+#include "AStar/Log.h"
+
+
 #include <iostream>
 
 

@@ -14,7 +14,8 @@ public:
 	}
 };
 
+// Creates the game
 AStar::Application* AStar::CreateApplication()
 {
-	return new Sandbox(); // calls dll entrypoint
+	return new Sandbox();
 }
